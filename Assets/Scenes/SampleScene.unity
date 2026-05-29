@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 101338106}
   - component: {fileID: 101338105}
   - component: {fileID: 101338108}
+  - component: {fileID: 101338109}
   m_Layer: 0
   m_Name: alienBlue_front_0
   m_TagString: Untagged
@@ -346,6 +347,18 @@ PolygonCollider2D:
       - {x: -0.28515625, y: -0.00390625}
       - {x: -0.27734375, y: 0.00390625}
   m_UseDelaunayMesh: 0
+--- !u!114 &101338109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101338104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe6671cb34c1bf45b465b4bd3f54db1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
 --- !u!1 &277615106
 GameObject:
   m_ObjectHideFlags: 0
